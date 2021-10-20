@@ -10,7 +10,7 @@ public class MainGame {
 
         // We create the Object player and we give it a inital value
         player jugador = new player();
-        jugador.setPosicion(90);
+        jugador.setPosicion(1);
 
         // As long as the player's position is less than 100, the game will continue
         while (jugador.posicion < 100){
